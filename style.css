@@ -17,10 +17,18 @@ p{
   
 
 a{
-    color: rgb(70, 0, 128);
-    background-color: rgba(23, 236, 112, 0.733);
-    padding: 0.4rem;
+    color: rgb(21, 143, 180);
+    background-color: rgb(23, 236, 112);
+    padding: 0.2rem;
     text-decoration:none;
+    border: 3px outset rgb(70, 0, 128);
+    transition-duration: .3s;
+}
+
+a:hover{
+    background-color: rgb(70, 0, 128);
+    border:  3px outset rgb(23, 236, 112);
+
 }
 
 h3{

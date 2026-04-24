@@ -5,14 +5,23 @@
 h1{
   color: purple;
   font-size: 3rem;
+  text-align:center;
 }
 
 h2{
     font-size: 2rem;
+
+    color: rgb(47, 196, 255);
+}
+
+h3{
+    color:rgba(255, 0, 140, 0.932);
 }
 
 p{
     font-size: 1rem;
+
+    
 }
   
 
@@ -23,6 +32,8 @@ a{
     text-decoration:none;
     border: 3px outset rgb(70, 0, 128);
     transition-duration: .3s;
+    border-radius: 30%
+    
 }
 
 a:hover{
@@ -32,5 +43,32 @@ a:hover{
 }
 
 h3{
-    font-size:1.5rem
+    font-size: 1.40rem
+
+}
+
+ol{
+    text-align: center;
+    list-style-type: upper-alpha;
+    color: #1E90FF;
+}
+
+ul{
+    text-align: center;
+    list-style: square;
+    color: #FF8C00;
+}
+
+
+
+span{
+    color: rgba(255, 0, 157, 0.932);
+    font-size: h3;
+    margin: 0rem, 0rem, 30rem, 30rem;
+}
+
+
+.images{
+    margin: auto;
+    text-align: center;
 }

@@ -48,13 +48,11 @@ h3{
 }
 
 ol{
-    text-align: center;
     list-style-type: upper-alpha;
     color: #1E90FF;
 }
 
 ul{
-    text-align: center;
     list-style: square;
     color: #FF8C00;
 }
